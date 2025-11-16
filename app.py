@@ -11,16 +11,8 @@ from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import matplotlib as mpl
-font_path = "C:/Windows/Fonts/NotoSansJP-Light.otf"
-jp_font = font_manager.FontProperties(fname=font_path)
-mpl.rcParams['font.family'] = jp_font.get_name()
+import japanize-matplotlib
 
-
-
-# 日本語フォント設定（NotoSansJPがインストールされている前提）
-font_path = "C:/Windows/Fonts/NotoSansJP-Light.otf"
-jp_font = font_manager.FontProperties(fname=font_path)
-mpl.rcParams['font.family'] = jp_font.get_name()
 
 st.header("🧬 肝臓コンパートメントを含むPBPKモデル")
 st.write("講義用")
