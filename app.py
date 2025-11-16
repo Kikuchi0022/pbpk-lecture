@@ -29,6 +29,8 @@ fu_p = st.slider("非結合率 fu_p", 0.01, 1.0, 0.1, step=0.01)
 ka = st.slider("吸収速度定数 ka (/h)", 0.1, 5.0, 1.0, step=0.1)
 FaFg = st.slider("吸収率×腸管通過率 Fa×Fg", 0.1, 1.0, 0.8, step=0.05)
 
+time_end = 24  # シミュレーション時間（h）
+n_points = 200  # 時間分割数
 
 # time_end = st.sidebar.slider("シミュレーション時間 (h)", 1, 48, 24)
 # n_points = st.sidebar.slider("時間分割数", 50, 500, 200)
