@@ -11,7 +11,7 @@ from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import matplotlib as mpl
-import japanize-matplotlib
+import japanize_matplotlib
 
 
 st.header("🧬 肝臓コンパートメントを含むPBPKモデル")
