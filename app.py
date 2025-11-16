@@ -7,22 +7,15 @@ st.set_page_config(
 # ファイル名例: pk_model_app.py
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-from matplotlib import font_manager
-
-
-font_path = "C:/Windows/Fonts/NotoSansJP-Light.otf"
-jp_font = font_manager.FontProperties(fname=font_path)
-mpl.rcParams['font.family'] = jp_font.get_name()
-
-import streamlit as st
-import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import matplotlib as mpl
+font_path = "C:/Windows/Fonts/NotoSansJP-Light.otf"
+jp_font = font_manager.FontProperties(fname=font_path)
+mpl.rcParams['font.family'] = jp_font.get_name()
+
+
 
 # 日本語フォント設定（NotoSansJPがインストールされている前提）
 font_path = "C:/Windows/Fonts/NotoSansJP-Light.otf"
